@@ -48,6 +48,6 @@ jobs:
         with:
           name: Rolling Release
           body: "This is a parody of flameaway/RemoveConfidential."
-          rtifacts: "estrogen-arm64.deb"
+          artifacts: "estrogen-arm64.deb"
           tag: release
           token: ${{ secrets.GITHUB_TOKEN }}
