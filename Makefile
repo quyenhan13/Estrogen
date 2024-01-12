@@ -6,10 +6,10 @@ PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = RemoveConfidential
+TWEAK_NAME = Estrogen
 
-RemoveConfidential_FILES = Tweak.x
-RemoveConfidential_CFLAGS = -fobjc-arc
+Estrogen_FILES = Tweak.x
+Estrogen_CFLAGS = -fobjc-arc
 
 
 include $(THEOS_MAKE_PATH)/tweak.mk
