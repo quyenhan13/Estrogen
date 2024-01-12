@@ -1,0 +1,52 @@
+name: Build tweak
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build tweak
+    runs-on: macos-latest
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Theos
+        run: bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/RootHide/Theos/master/bin/install-theos')"
+
+      - name: Setup Theos environment
+        run: echo "THEOS=~/theos" >> $GITHUB_ENV
+
+      - name: Make RootHide Bootstrap .tipa
+        run: make package
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: estrogen-arm64.deb
+          path: ./packages/com.flame.removeconfidential_69_iphoneos-arm64.deb
+
+      - name: Delete old release
+        uses: dev-drprasad/delete-tag-and-release@v0.2.1
+        with:
+          delete_release: true
+          tag_name: release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: estrogen-arm64.deb
+
+      - name: Create new rolling release
+        uses: ncipollo/release-action@v1
+        with:
+          name: Rolling Release
+          body: "This is a parody of flameaway/RemoveConfidential."
+          tag: release
+          token: ${{ secrets.GITHUB_TOKEN }}
