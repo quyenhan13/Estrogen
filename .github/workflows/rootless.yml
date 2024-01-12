@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Theos
-        run: bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/RootHide/Theos/master/bin/install-theos')"
+        run: bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/theos/theos/master/bin/install-theos')"
 
       - name: Setup Theos environment
         run: echo "THEOS=~/theos" >> $GITHUB_ENV
