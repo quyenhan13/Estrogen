@@ -1,4 +1,4 @@
-# This is a parody and should not be taken seriously. Please use [https://github.com/flameaway/RemoveConfidential/](https://github.com/flameaway/RemoveConfidential/] for the real tweak. I do not own anything in this repository.
+# This is a parody and should not be taken seriously. Please use [https://github.com/flameaway/RemoveConfidential/](https://github.com/flameaway/RemoveConfidential/) for the real tweak. I do not own anything in this repository.
 # Changes the "Confidential & Proprietary" text from the lockscreen.
 
 ## Before
