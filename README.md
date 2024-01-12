@@ -22,7 +22,8 @@ guys this is a joke im not weird guys
 ![estrogen](https://github.com/dleovl/Estrogen/assets/95427722/104777d4-0e3e-4173-84dc-78805588f861)
 
 it makes ur phone suuuper gay!!!!!!! actual screenshot: ![image](https://github.com/dleovl/Estrogen/assets/95427722/7aa07cc1-e972-4320-b8db-9eab099057f2)
-and also this one ![image](https://github.com/dleovl/Estrogen/assets/95427722/27b04b4a-0a41-4d65-bc47-6c02151fe596)
+and also this one ![image](https://github.com/dleovl/Estrogen/assets/95427722/27b04b4a-0a41-4d65-bc47-6c02151fe596) ![image](https://github.com/dleovl/Estrogen/assets/95427722/caf35185-45cc-4bf2-ad7d-bd1531795e26)
+
 this is super peak guys idk what ur saying
 
 ## Building
