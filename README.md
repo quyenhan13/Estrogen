@@ -34,3 +34,16 @@ cd RemoveConfidential
 make package
 ```
 you can still add your own custom text with removeconfidential its just a matter of changing tweak.x cuz rn its an empty string you can just put whatever you want
+
+
+
+
+
+
+
+..
+.
+.
+.
+
+:3
