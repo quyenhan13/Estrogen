@@ -24,11 +24,14 @@ jobs:
       - name: Make tweak
         run: make package
 
+      - name: fix idk
+        run: mv ./packages/com.flame.removeconfidential_69_iphoneos-arm64.deb ./packages/estrogen-arm64.deb
+
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: estrogen-arm64.deb
-          path: ./packages/com.flame.removeconfidential_69_iphoneos-arm64.deb
+          path: ./packages/estrogen-arm64.deb
 
       - name: Delete old release
         uses: dev-drprasad/delete-tag-and-release@v0.2.1
