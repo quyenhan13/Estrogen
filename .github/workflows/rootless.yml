@@ -21,7 +21,7 @@ jobs:
       - name: Setup Theos environment
         run: echo "THEOS=~/theos" >> $GITHUB_ENV
 
-      - name: Make RootHide Bootstrap .tipa
+      - name: Make tweak
         run: make package
 
       - name: Upload artifact
@@ -48,5 +48,6 @@ jobs:
         with:
           name: Rolling Release
           body: "This is a parody of flameaway/RemoveConfidential."
+          rtifacts: "estrogen-arm64.deb"
           tag: release
           token: ${{ secrets.GITHUB_TOKEN }}
