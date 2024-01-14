@@ -1,9 +1,12 @@
-# This is a parody and should not be taken seriously. Please use [https://github.com/flameaway/RemoveConfidential/](https://github.com/flameaway/RemoveConfidential/) for the real tweak. I do not own any tweak related code in this repository.
-## This does have some use though, you can fork this and change `Tweak.x` to have a custom different text and my workflow `.yml` will compile it under Releases. This just removes the dependancy of cloning and building and installing theos yourself (without any version numbers in the `.deb` too so the `.deb` link stays consistent). You'll need to enable workflows in 'Actions' tab on your fork, then click 'Build tweak', and run the workflow.
-
-This text is different than the custom footnote you can set with something like Misaka (this lets you basically have a SECOND message). I don't know if this will work on other tools that enable SpringBoard injection (that dont have the confidentiality message show up), I just know it works on Serotonin since the legal text is guaranteed to show up. This is only for customizing text without a build; blank text should refer to the upstream repository. The workflow could be added, though I don't know how the developer feels about renaming debs.
-
-Credit should be given to https://github.com/flameaway/RemoveConfidential
+# Warning
+This is a parody and should not be taken seriously. Please use [https://github.com/flameaway/RemoveConfidential/](https://github.com/flameaway/RemoveConfidential/) for the real tweak. I do not own any tweak related code in this repository.
+# Usage
+This does have some use though, you can fork this and change `Tweak.x` to have a custom different text and my workflow `.yml` will compile it under Releases. This just removes the dependancy of cloning and building and installing theos yourself (without any version numbers in the `.deb` too so the `.deb` link stays consistent). You'll need to enable workflows in 'Actions' tab on your fork, then click 'Build tweak', and run the workflow.
+# Note
+This text is different than the custom footnote you can set with something like Misaka (this lets you basically have a SECOND message). I don't know if this will work on other tools that enable SpringBoard injection (that dont have the confidentiality message show up), I just know it works on Serotonin since the legal text is guaranteed to show up (if you don't disable it, though I believe that it just sets it blank). This is only for ADDING text without a build; blank text should refer to the upstream repository. The workflow could be added to upstream, though I don't know how the developer feels about renaming `.deb`s.
+# Credits
+Credit should be given to https://github.com/flameaway/RemoveConfidential, this is pretty much a glorified rip-off.
+## descent into insanity
 
 i dont even know why im doing this i just want to say i have something jb related called estrogen on my phone
 
@@ -42,8 +45,11 @@ you can still add your own custom text with removeconfidential its just a matter
 
 
 ..
+
 .
+
 .
+
 .
 
 :3
