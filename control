@@ -1,9 +1,9 @@
-Package: com.flame.removeconfidential
+Package: me.dleovl.estrogen
 Name: Estrogen
 Version: 69
 Architecture: iphoneos-arm64
-Description: Changes the "Confidential & Proprietary" text from the lockscreen. THIS IS A PARODY AND IS NOT ENDORSED OR SUPPORTED BY FLAMEAWAY. ABSOLUTELY NO WARRANTY WILL BE GIVEN BY FLAMEAWAY FOR THIS TWEAK. ALL CREDIT GOES TO FLAMEAWAY, I DO NOT OWN ANYTHING RELATED TO THIS TWEAK.
-Maintainer: Flame
-Author: Flame
+Description: You know you want to install it.
+Maintainer: dleovl
+Author: dleovl
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
