@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - ".github/workflows/rootless.yml"
+      - "Tweak.x"
   workflow_dispatch:
 
 jobs:
