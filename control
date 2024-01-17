@@ -1,9 +1,10 @@
 Package: me.dleovl.estrogen
 Name: Estrogen
-Version: 69
+Version: 69.prf
 Architecture: iphoneos-arm64
-Description: You know you want to install it.
+Description: Legal text changer for Serotonin.
 Maintainer: dleovl
 Author: dleovl
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
+Section: Tweaks (Serotonin)
+Icon: https://dleovl.github.io/repo/depictions/me.dleovl.estrogen/TweakIcon.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 14.0)

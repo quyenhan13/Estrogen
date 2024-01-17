@@ -1,0 +1,1 @@
+gmake -j$(sysctl -n hw.ncpu) package
