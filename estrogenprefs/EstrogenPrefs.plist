@@ -9,12 +9,13 @@
 		<key>cell</key>
 		<string>PSLinkCell</string>
 		<key>detail</key>
-		<string>PRFRootListController</string>
+		<string>ESTRootListController</string>
 		<key>icon</key>
-		<string>icon.png</string>
+		<string>Icon.png</string>
 		<key>isController</key>
 		<true/>
 		<key>label</key>
-		<string>EstrogenPrefs</string>
+		<string>Estrogen</string>
 	</dict>
+</dict>
 </plist>

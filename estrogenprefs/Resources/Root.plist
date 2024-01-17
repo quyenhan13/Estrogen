@@ -2,28 +2,70 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>items</key>
-	<array>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Estrogen</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>me.dleovl.estrogenprefs</string>
+			<key>label</key>
+			<string>Text:</string>
+			<key>key</key>
+			<string>text</string>
+			<key>default</key>
+			<string>meow i love femboys :3</string>
+		</dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>cellClass</key>
+            <string>PSTextButtonCell</string>
+            <key>label</key>
+            <string>Apply</string>
+            <key>action</key>
+            <string>apply</string>
+            <key>cellType</key>
+            <string>PSButtonCell</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Follow me</string>
+        </dict>
+		<dict>
+			<key>action</key>
+			<string>openTwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter: @dleovl</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openGitHub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GitHub: @dleovl</string>
+		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>EstrogenPrefs First Page</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>dleovl</string>
 		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>me.dleovl.estrogenprefs</string>
-			<key>key</key>
-			<string>AwesomeSwitch1</string>
-			<key>label</key>
-			<string>Awesome Switch 1</string>
-		</dict>
-	</array>
-	<key>title</key>
-	<string>EstrogenPrefs</string>
+    </array>
+    <key>title</key>
+    <string>Estrogen</string>
 </dict>
 </plist>

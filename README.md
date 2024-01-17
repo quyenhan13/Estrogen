@@ -4,6 +4,8 @@ This is a parody and should not be taken seriously. Please use [https://github.c
 This does have some use though, you can fork this and change `Tweak.x` to have a custom different text and my workflow `.yml` will compile it under Releases. This just removes the dependancy of cloning and building and installing theos yourself (without any version numbers in the `.deb` too so the `.deb` link stays consistent). You'll need to enable workflows in 'Actions' tab on your fork, then click 'Build tweak', and run the workflow.
 # Note
 This text is different than the custom footnote you can set with something like Misaka (this lets you basically have a SECOND message). I don't know if this will work on other tools that enable SpringBoard injection (that dont have the confidentiality message show up), I just know it works on Serotonin since the legal text is guaranteed to show up (if you don't disable it, though I believe that it just sets it blank). This is only for ADDING text without a build; blank text should refer to the upstream repository. The workflow could be added to upstream, though I don't know how the developer feels about renaming `.deb`s.
+# todo stuff
+1. make it like a rounded preference icon cuz i aint payin for allat adobe shit https://cdn.discordapp.com/emojis/1193363795150643260.webp?size=240&quality=lossless
 # Credits
 Credit should be given to https://github.com/flameaway/RemoveConfidential, this is pretty much a glorified rip-off.
 ## descent into insanity
