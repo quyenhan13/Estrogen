@@ -27,8 +27,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: me.dleovl.estrogen_69_iphoneos-arm64.deb
-          path: ./packages/me.dleovl.estrogen_69_iphoneos-arm64.deb
+          name: me.dleovl.estrogen_69.prf-1+debug_iphoneos-arm64e.deb
+          path: ./packages/me.dleovl.estrogen_69.prf-1+debug_iphoneos-arm64e.deb
 
       - name: Delete old release
         uses: dev-drprasad/delete-tag-and-release@v0.2.1
@@ -41,13 +41,13 @@ jobs:
       - name: Get artifact
         uses: actions/download-artifact@v3
         with:
-          name: me.dleovl.estrogen_69_iphoneos-arm64.deb
+          name: me.dleovl.estrogen_69.prf-1+debug_iphoneos-arm64e.deb
 
       - name: Create new rolling release
         uses: ncipollo/release-action@v1
         with:
           name: Rolling Release
           body: "This is a parody and custom build of `flameaway/RemoveConfidential`.\nDo not use this `.deb` file unless you're content with the text in `Tweak.x`."
-          artifacts: "me.dleovl.estrogen_69_iphoneos-arm64.deb"
+          artifacts: "me.dleovl.estrogen_69.prf-1+debug_iphoneos-arm64e.deb"
           tag: release
           token: ${{ secrets.GITHUB_TOKEN }}
