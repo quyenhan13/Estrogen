@@ -1,5 +1,7 @@
 # Warning
 This is a parody and should not be taken seriously. Please use [https://github.com/flameaway/RemoveConfidential/](https://github.com/flameaway/RemoveConfidential/) for the real tweak (REMOVES the confidential text). I do not own any tweak related code in this repository.
+
+### tweak preferences don't work because i don't know wtf I'm doing. you gotta fork it
 # Usage
 This does have some use though, you can fork this and change `Tweak.x` to have a custom different text and my workflow `.yml` will compile it under Releases. This just removes the dependancy of cloning and building and installing theos yourself (without any version numbers in the `.deb` too so the `.deb` link stays consistent). You'll need to enable workflows in 'Actions' tab on your fork, then click 'Build tweak', and run the workflow.
 # Note
